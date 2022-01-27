@@ -1,4 +1,4 @@
-defmodule CodysCookieStoreWeb.PageController do
+defmodule CodysCookieStoreWeb.IndexController do
   use CodysCookieStoreWeb, :controller
 
   def index(conn, _params) do

@@ -1,3 +1,3 @@
-defmodule CodysCookieStoreWeb.PageView do
+defmodule CodysCookieStoreWeb.IndexView do
   use CodysCookieStoreWeb, :view
 end

@@ -1,4 +1,4 @@
-defmodule CodysCookieStoreWeb.PageControllerTest do
+defmodule CodysCookieStoreWeb.IndexControllerTest do
   use CodysCookieStoreWeb.ConnCase
 
   test "GET /", %{conn: conn} do
