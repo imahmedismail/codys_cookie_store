@@ -1,0 +1,145 @@
+.firstDiv{
+    margin-top: 3%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+
+#mainHeading{
+    margin: 0;
+    padding: 0;
+}
+
+#main{
+    margin: 0;
+    padding: 0;
+}
+
+.secondDiv{
+    width: 100%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.buttonStyle{
+    width: 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #4da6ff;
+    border: none;
+}
+
+.headerDiv{
+    border-bottom: 1px solid #d9d9d9;
+}
+
+#bagText{
+    font-size: 20px;
+}
+
+.mainForm{
+    width: 30%;
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-bottom: 8%;
+}
+
+.textFieldStyle{
+    width: 100%;
+    padding-bottom: 3%;
+    margin-bottom: 5%;
+    font-size: 17px;
+    padding-left: 2%;
+}
+
+.formHeading{
+    font-size: 20px;
+    letter-spacing: -0.5px;
+    margin-bottom: 3%;
+}
+
+.footer{
+    border-top: 1px solid black;
+}
+
+.footerDiv{
+    margin-top: 1.5%;
+    width: 30%;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#bagQuantity{
+    font-size: 14px;
+}
+
+#bagPrice{
+    padding: 0;
+    margin: 0;
+}
+
+.nextButton{
+    margin-top: 2.5%;
+    font-size: 20px;
+    width: 100px;
+    height: 50px;
+    color: #bfbfbf;
+    background-color: #b3d9ff;
+    border: none;
+    border-radius: 5px;
+}
+
+.nextActiveButton{
+    margin-top: 2.5%;
+    font-size: 20px;
+    width: 100px;
+    height: 50px;
+    color: black;
+    background-color: #4da6ff;
+    border: none;
+    border-radius: 5px;
+}
+
+.retryButton{
+    margin-top: 2.5%;
+    font-size: 20px;
+    width: 100px;
+    height: 50px;
+    color: black;
+    background-color: #ff471a;
+    border: none;
+    border-radius: 5px;
+}
+
+#disabledMinusButton{
+    width: 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #bfbfbf;
+    background-color: #b3d9ff;
+    border: none;
+}
+
+.changeDiv{
+    margin-top: 3%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #1affa3;
+}
+
+.bookingPlaced{
+    text-align: center;
+    width: 30%;
+    margin-left: 2%;
+    margin-top: 20%;
+}
