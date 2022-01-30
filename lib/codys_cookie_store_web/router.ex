@@ -18,6 +18,7 @@ defmodule CodysCookieStoreWeb.Router do
     pipe_through :browser
 
     get "/", IndexController, :index
+    get "/personal_details", IndexController, :personal_details
   end
 
   # Other scopes may use custom stacks.

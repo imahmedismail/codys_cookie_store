@@ -10,7 +10,14 @@
       <input id="plus" class="buttonStyle" type="submit" value="+">
   </div>
 </div>
-<div class="mainForm" style="height: 200px !important;">
+<div class="mainForm">
+  <div class="formHeading">Personal Details:</div>
+  <form>
+      <label for="name">Name</label><br>
+      <input class="textFieldStyle" type="text" id="name" name="name" placeholder="John Doe"><br>
+      <label for="email">Email</label><br>
+      <input class="textFieldStyle" type="text" id="email" name="email" placeholder="john@doe.com">
+  </form> 
 </div>
 <footer class="footer">
   <div class="footerDiv">
@@ -18,10 +25,6 @@
           <p id="bagQuantity"><span id="bagQuantitySpan">1</span> bag</p>
           <h4 id="bagPrice">$<span id="bagPriceSpan">5.90</span></h4>
       </div>
-      <form action="/personal_details">
-        <input hidden type="text" id="hiddenBagQuantity" name="bagQuantity" bag-quantity="1" value="1">
-        <input hidden type="text" id="hiddenBagPrice" name="bagPrice" value="5.90">
-        <input class="nextButton" type="submit" value="Next">
-      </form>    
+      <input class="nextButton" type="submit" value="Next">
   </div>
 </footer>
